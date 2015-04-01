@@ -1,0 +1,199 @@
+# -n 1300 model 2 & dice itr 15,20
+Precision = 0.585127
+Recall = 0.695266
+AER = 0.371025
+
+# orthographic model 1 abs difference < 5
+
+# model 1 15 iter 0.3
+Precision = 0.707692
+Recall = 0.565089
+AER = 0.365008
+
+
+# model 1 with dice
+Precision = 0.645783
+Recall = 0.642012
+AER = 0.355910
+
+
+
+#e -> f with model 1
+
+# model 2 iter 15,5 no dice
+Precision = 0.558176
+Recall = 0.739645
+AER = 0.378850
+
+# model 2 with 15,5 no dice -n 1300 -t 0.4
+Precision = 0.600379
+Recall = 0.698225
+AER = 0.361432
+Leaderboard = 35.30
+
+# model1 + dice iter 50 -n 1300 -t 0.4
+Precision = 0.642659
+Recall = 0.571006
+AER = 0.391989
+
+
+
+#model1 null -n 1400 -t 0.4
+Precision = 0.667506
+Recall = 0.633136
+AER = 0.348299
+ leaderboard = 33.42
+
+ #model1 null -n 1500 -t 0.4 (no dice)
+
+ Precision = 0.678218
+Recall = 0.644970
+AER = 0.336927
+leaderboard = 33.14
+
+## model 1 (align_try) -n 1250 -t 0.4 orthograph
+Precision = 0.653374
+Recall = 0.538462
+AER = 0.405120
+
+(ortho.a)
+
+## model 2 -n 1500 -t 0.4 no dice
+
+Precision = 0.589698
+Recall = 0.724852
+AER = 0.359600
+
+leaderboard = 35.5
+
+## model 1 -n 1500 -t 0.4 null dice
+Precision = 0.676012
+Recall = 0.547337
+AER = 0.389985
+
+Score: 36.23
+
+## model 1 -n 15000 -t 0.4 null no dice
+
+Precision = 0.708642
+Recall = 0.704142
+AER = 0.293405
+ leaderboard = 30.09
+
+## model 2 -n 15000 -t 0.4 null no dice
+
+Precision = 0.706024
+Recall = 0.715976
+AER = 0.289509
+
+leaderboard = 29.93
+
+## model 2 -n 50000 -t 0.3 null no dice
+Precision = 0.686192
+Recall = 0.784024
+AER = 0.273284
+leaderboard 27.92
+
+### model 1 -t 0.4 null no dice whole dataset
+
+Precision = 0.730159
+Recall = 0.686391
+AER = 0.290503
+leaderboard = 28.76
+
+## model 2 -n 50000 -t 0.3 null dice
+Precision = 0.668305
+Recall = 0.689349
+AER = 0.322148
+
+## model 2 full dataset -t 0.3
+Precision = 0.686071
+Recall = 0.786982
+AER = 0.272283
+leaderboard = 27.59
+
+## model 2 -n 50000 -t 0.4
+Precision = 0.728723
+Recall = 0.680473
+AER = 0.294118
+
+## model 1 reverse -n 50000 -t 0.4 no null no dice
+Precision = 0.853846
+Recall = 0.307692
+AER = 0.540598
+leaderboard = 50.48
+
+## model 2 -n 15000 -t 0.3 null no dice
+Precision = 0.685598
+Recall = 0.792899
+AER = 0.270758
+leaderboard = 28.74
+
+## ./align_model2 -n 30000 -t 0.3 > 3k.a
+Precision = 0.684536
+Recall = 0.784024
+AER = 0.274605
+
+## ./align_model2 -n 20000 -t 0.3 
+Precision = 0.687117
+Recall = 0.786982
+AER = 0.272068
+
+## ./align_model2 -n 10000 -t 0.3
+Precision = 0.680982
+Recall = 0.786982
+AER = 0.275695 
+
+## -n 25000
+Precision = 0.686475
+Recall = 0.786982
+AER = 0.272397
+
+## -n 17000
+
+Precision = 0.685598
+Recall = 0.786982
+AER = 0.273165
+
+## -n 15000 -t 0.4
+Precision = 0.706024
+Recall = 0.715976
+AER = 0.289509
+
+## -n 60000 -t 0.3
+Precision = 0.687631
+Recall = 0.781065
+AER = 0.273620
+
+## -n 75000 -t 0.3
+Precision = 0.690229
+Recall = 0.786982
+AER = 0.269841
+
+leaderboard = 28.05
+
+## model 1 -n 15000 -t 0.3
+Precision = 0.685598
+Recall = 0.792899
+AER = 0.270758
+
+## ## model 1 -n 15000 -t 0.4
+
+Precision = 0.708642
+Recall = 0.704142
+AER = 0.293405
+
+## model 1 -n 50000 -t 0.3
+Precision = 0.687631
+Recall = 0.778107
+AER = 0.274847
+
+leaderboard = 28.03
+
+## model 1 -n 20000 -t 0.3
+Precision = 0.687117
+Recall = 0.786982
+AER = 0.272068
+
+leaderboard = 28.23
+
